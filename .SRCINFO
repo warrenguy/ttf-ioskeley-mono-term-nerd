@@ -1,0 +1,16 @@
+pkgbase = ttf-ioskeley-mono-term-nerd
+	pkgdesc = Ioskeley Mono Term with single-width Nerd Font icons for terminals
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = https://github.com/ahatem/IoskeleyMono
+	arch = any
+	license = OFL-1.1
+	conflicts = ttf-ioskeley-mono-nerd
+	conflicts = ttf-ioskeley-mono-nerd-unhinted
+	options = !strip
+	source = IoskeleyMono-Term-NerdFont-2.1.0.zip::https://github.com/ahatem/IoskeleyMono/releases/download/v2.1.0/IoskeleyMono-Term-NerdFont.zip
+	source = OFL-1.1.txt::https://github.com/ahatem/IoskeleyMono/raw/v2.1.0/LICENSE
+	sha256sums = 2eb905184e40602f6711d84c28448a0056a77de96881bbdee55b9595d40f2265
+	sha256sums = 1084285bd2bddf706d566e11a92fcbae2706da4a8eafac49ed34c871d01fb7fe
+
+pkgname = ttf-ioskeley-mono-term-nerd
